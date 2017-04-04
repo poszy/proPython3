@@ -8,15 +8,15 @@
 sum = 0
 
 
-a = int(input("Enter A: " ))
-b = int(input("Enter B: " ))
+a = int(input("Enter A: "))
+b = int(input("Enter B: "))
 
 
-#Loop Logic
+# Loop Logic
 for i in range(a, b + 1):
 
-    if( i % 2 == 0):
-        sum = sum +i
+    if(i % 2 == 0):
+        sum = sum + i
 
     print(sum)
 
@@ -29,7 +29,7 @@ print("##### END PART A #####\n")
 #
 
 print("##### BEGIN PART B ##### \n")
-print ("Enter A series of Quiz Scores")
+print("Enter A series of Quiz Scores")
 print("(Enter 0: to exit.)")
 
 inputSum = 0
@@ -38,12 +38,12 @@ inputCount = 0
 
 while True:
     inputScore = int(input("Enter Score: "))
-    if (inputScore ==0):
-        print("Sum:     %10.2i"  %inputSum)
-        print("Count:   %10.2i"  %inputCount)
-        print("Average: %10.2i"  %inputAverage)
+    if (inputScore == 0):
+        print("Sum:     %10.2i" % inputSum)
+        print("Count:   %10.2i" % inputCount)
+        print("Average: %10.2i" % inputAverage)
 
         break
-    inputSum      = inputSum + inputScore
-    inputCount    = inputCount + 1
-    inputAverage  = inputSum // inputCount
+    inputSum = inputSum + inputScore
+    inputCount = inputCount + 1
+    inputAverage = inputSum // inputCount

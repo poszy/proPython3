@@ -2,7 +2,6 @@
 class creditCard:
 
     def __init__(self, customer, bank, account, limit):
-
         """
         Create new credit card instance
 
@@ -27,12 +26,14 @@ class creditCard:
 
         def getBalance(self):
             return self._balance
+
         def charge(self, price):
             if price + self._balance > self._limit:
                 return False
             else:
                 self._balance += price
                 return true
+
         def makePayment(self, amount):
             self._balance -= amount
 

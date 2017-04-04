@@ -5,19 +5,19 @@
 # Luis Pena
 # Jan 16, 2016
 #
-#This program prompts the user to input
+# This program prompts the user to input
 # - The number of gallon of gas in the tank
 # - The fuel efficiency in miles per gallon
 # - The price of gas per gallon
 #
 #
-# Purpose: Compute the cost per 100 miles and 
-# how far the car can go with the gas in the tank. 
-# Outputs: Print the cost per 100 miles and how far the can go with the gas in the tank. 
+# Purpose: Compute the cost per 100 miles and
+# how far the car can go with the gas in the tank.
+# Outputs: Print the cost per 100 miles and how far the can go with the gas in the tank.
 #
 #
 
-#Initialize Variables
+# Initialize Variables
 gallonsOfGas = 0.0
 fuelEffPerGallon = 0.0
 gasPrice = 0.0
@@ -32,9 +32,9 @@ gasPrice = float(input("Enter Price of gas per gallon: "))
 
 # Calculate Input from User
 totalCostPerMiles = gasPrice * 100 / fuelEffPerGallon
-print "For each 100 miles, total gas will cost "
-print totalCostPerMiles, "Dollars"
+print("For each 100 miles, total gas will cost ")
+print(totalCostPerMiles, "Dollars")
 
 totalMiles = gallonsOfGas * fuelEffPerGallon
-print "The car can go "
-print totalMiles, "Miles"
+print("The car can go ")
+print(totalMiles, "Miles")
