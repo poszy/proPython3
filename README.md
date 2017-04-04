@@ -1,2 +1,2 @@
-# proPython3
+# python3Pro
 Random Python Scripts for Practice
